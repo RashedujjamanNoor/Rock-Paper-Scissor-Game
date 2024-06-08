@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 10px ;
+
+
+}
+
+.icon{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+img:hover{
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 3rem;
+}
+
+.icon:hover{
+    background-color: rgb(49, 65, 78);
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.msgView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.msg{
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(20, 42, 51);
+    padding: 1px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
